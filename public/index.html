@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Arweave Web App</title>
+</head>
+<body>
+    <div id="root"></div>
+    <div id="arweave-info">
+        <img src="./images/arweave-ar-logo.png" alt="Arweave Coin" class="coin-image">
+        <h1>Arweave Coin Information</h1>
+        <p>AR Coin Value: <span id="ar-value"></span></p>
+        <p>Trading Value: <span id="trading-value"></span></p>
+        <p>Market Value: <span id="market-value"></span></p>
+    </div>
+    <script src="./bundle.js"></script>
+    <script src="./fetchArweaveData.js"></script>
+</body>
+</html>
